@@ -1,7 +1,9 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/lencse/rectum/src/functions.php';
 
-$config = require 'configuration.php';
-
-return new \Lencse\Rectum\Framework\Application\Bootstrap($config);
+function createBootstrap(): \Lencse\Rectum\Framework\Application\Bootstrap {
+    $config = require 'configuration.php';
+    return new \Lencse\Rectum\Framework\Application\Bootstrap($config);
+}
