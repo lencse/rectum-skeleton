@@ -1,0 +1,14 @@
+[
+    {
+        "url": "/",
+        "status": 200,
+        "content-type": "text/plain",
+        "content": "OK"
+    },
+    {
+        "url": "/hello/Lencse",
+        "status": 200,
+        "content-type": "text/plain",
+        "content": "Hello, Lencse!"
+    }
+]
