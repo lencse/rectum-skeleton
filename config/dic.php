@@ -2,9 +2,9 @@
 
 namespace AppConfig;
 
-use Lencse\Rectum\Component\DependencyInjection\Configuration\DependencyInjectionConfig;
 use App\UseCase\Ok\OkMessage;
 use App\UseCase\Ok\TestMessage;
+use Lencse\Rectum\DependencyInjection\Configuration\DependencyInjectionConfig;
 
 return new class() implements DependencyInjectionConfig {
     public function bind(): array

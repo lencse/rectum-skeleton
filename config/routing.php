@@ -2,10 +2,10 @@
 
 namespace AppConfig;
 
-use Lencse\Rectum\Component\Web\Http\HttpMethod;
-use Lencse\Rectum\Framework\Web\Routing\Configuration\RoutingConfig;
 use App\Handler\HelloHandler;
 use App\Handler\OkHandler;
+use Lencse\Rectum\Web\Http\Component\HttpMethod;
+use Lencse\Rectum\Web\Routing\Configuration\RoutingConfig;
 
 return new class() implements RoutingConfig {
     public function routes(): array
